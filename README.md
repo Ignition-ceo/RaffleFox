@@ -1,7 +1,3 @@
-Got it — since there’s no existing README in your uploaded repo, here’s a polished **README.md** draft you can drop straight into the root of your project:
-
----
-
 # 🦊 RaffleFox Admin Portal
 
 **RaffleFox** is a secure, cloud-based admin portal designed to manage digital raffles, prizes, sponsors, and user databases.
