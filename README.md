@@ -1,133 +1,73 @@
-# 🦊 RaffleFox Admin Portal
+# Welcome to your Lovable project
 
-**RaffleFox** is a secure, cloud-based admin portal designed to manage digital raffles, prizes, sponsors, and user databases.
-It provides a streamlined dashboard for administrators to handle game operations, monitor participants, manage partner libraries, and automate notifications — all from one place.
+## Project info
 
----
+**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
 
-## 🚀 Features
+## How can I edit this code?
 
-### 🎮 Game & Prize Management
+There are several ways of editing your application.
 
-* Create, edit, and monitor active raffle games.
-* Add prizes with images, descriptions, and statuses.
-* Track prize inventory and winners in real-time.
+**Use Lovable**
 
-### 👥 Gamers & Sponsors
+Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
 
-* Manage player accounts, including profile details and game history.
-* Add and manage sponsors, logos, and campaigns.
-* Control partner and admin access levels.
+Changes made via Lovable will be committed automatically to this repo.
 
-### 📦 Library & Media Management
+**Use your preferred IDE**
 
-* Upload and manage game images and sponsor assets.
-* Store and organize digital files with Firebase Storage integration.
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-### 🔔 Notifications
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-* Send announcements or push notifications to users.
-* Manage in-app or email alerts for key events.
+Follow these steps:
 
-### 🔐 Authentication & Access Control
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
-* Secure login via Firebase Authentication.
-* Role-based permissions for Admins, Partners, and Operators.
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
 
----
+# Step 3: Install the necessary dependencies.
+npm i
 
-## 🧩 Tech Stack
-
-| Layer                | Technology                        |
-| -------------------- | --------------------------------- |
-| **Framework**        | Next.js 15 (React 19)             |
-| **UI Library**       | React Components + Tailwind CSS   |
-| **State Management** | React Hooks / Context API         |
-| **Backend Services** | Firebase Auth, Firestore, Storage |
-| **Deployment**       | Netlify                           |
-| **Version Control**  | GitHub                            |
-
----
-
-## 🛠️ Local Development
-
-### 1️⃣ Clone the repository
-
-```bash
-git clone https://github.com/your-org/rafflefox-admin.git
-cd rafflefox-admin
-```
-
-### 2️⃣ Install dependencies
-
-```bash
-npm install
-```
-
-### 3️⃣ Add your environment variables
-
-Create a `.env.local` file in the root directory with the following keys:
-
-```bash
-NEXT_PUBLIC_FIREBASE_API_KEY=your_api_key
-NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your_auth_domain
-NEXT_PUBLIC_FIREBASE_PROJECT_ID=your_project_id
-NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=your_storage_bucket
-NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your_messaging_id
-NEXT_PUBLIC_FIREBASE_APP_ID=your_app_id
-```
-
-### 4️⃣ Run the development server
-
-```bash
+# Step 4: Start the development server with auto-reloading and an instant preview.
 npm run dev
 ```
 
-Then visit **[http://localhost:3000](http://localhost:3000)** in your browser.
+**Edit a file directly in GitHub**
 
----
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
-## 🌐 Deployment
+**Use GitHub Codespaces**
 
-The app is deployed on **Netlify**:
-🔗 [raffle-games.netlify.app](https://raffle-games.netlify.app/)
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-To deploy updates:
+## What technologies are used for this project?
 
-1. Commit and push changes to the `main` branch.
-2. Netlify will automatically detect changes and redeploy.
+This project is built with:
 
----
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
 
-## 📁 Folder Structure
+## How can I deploy this project?
 
-```
-├── components/         # Reusable UI components
-├── pages/              # Next.js routes
-│   ├── index.js        # Dashboard
-│   ├── login.js        # Auth page
-│   ├── prize-database/
-│   ├── game-database/
-│   ├── partner-management/
-│   ├── admin-management/
-│   └── ...
-├── lib/                # Firebase and helper functions
-├── public/             # Static assets
-├── styles/             # Global stylesheets
-└── .env.local.example  # Example environment file
-```
+Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
 
----
+## Can I connect a custom domain to my Lovable project?
 
-## 🧑‍💻 Contributors
+Yes, you can!
 
-* **Lead Developer:** [Your Name]
-* **Design & UI:** [Contributor or Team Name]
-* **Deployment:** Netlify
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
----
-
-## 📄 License
-
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
-
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
